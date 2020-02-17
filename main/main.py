@@ -8,7 +8,7 @@ def download_and_install_update_if_available():
 def start():
     led = machine.Pin(5, machine.Pin.OUT)
     i=0
-    while (i<10):
+    while (i<5):
         print("running")
         led.value(1)
         time.sleep(1)
